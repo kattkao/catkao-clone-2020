@@ -24,7 +24,7 @@ body {
 
 footer {
   position: fixed;
-  top: 92vh;
+  bottom: 0;
   background-color: #f2f2f2;
   height: 8vh;
   width: 515px;
@@ -64,13 +64,13 @@ footer a:visited {
   justify-content: space-evenly;
 }
 
-@media screen and (min-width: 599px) {
+@media screen and (max-width: 601px) {
   .alert {
     display: none;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 600px) {
   body {
     background-color: #222222;
   }
