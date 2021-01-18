@@ -1,0 +1,84 @@
+.chat {
+  display: flex;
+  margin-top: 30px;
+  border-radius: 1%;
+}
+
+.users {
+  display: flex;
+  color: #dadada;
+  font-size: 15px;
+  width: 70px;
+  height: 70px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.users i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(190, 152, 201);
+  width: 30px;
+  height: 30px;
+  border-radius: 30%;
+}
+
+.users i:nth-child(2) {
+  background-color: hsl(180, 62%, 41%);
+}
+
+.users i:nth-child(3) {
+  background-color: rgb(77, 197, 197);
+}
+
+.chat img {
+  width: 70px;
+  height: 70px;
+  border-radius: 30%;
+}
+
+.chat__main {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 20px;
+  width: 385px;
+  height: 80px;
+}
+
+.chat__name {
+  padding: 5px 0px 15px 0px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.chat__name span {
+  padding-left: 10px;
+  font-weight: 400;
+  color: #a9a9a9;
+}
+
+.chat__current {
+  color: #a9a9a9;
+}
+
+.chat__date {
+  padding-top: 20px;
+  width: 85px;
+  font-size: 14px;
+  color: #a9a9a9;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.user {
+  font-size: 30px;
+  border-radius: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  background-color: rgb(167, 203, 209);
+  color: #e2e2e2;
+}
