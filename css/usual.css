@@ -64,13 +64,13 @@ footer a:visited {
   justify-content: space-evenly;
 }
 
-@media screen and (max-width: 601px) {
+@media screen and (max-width: 651px) {
   .alert {
     display: none;
   }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 650px) {
   body {
     background-color: #222222;
   }
